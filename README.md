@@ -1,6 +1,6 @@
 CodeBook 🖥️💻
 
-Live Demo
+[Live Demo](https://code-sync--nalinipatidar.replit.app/)
 
 Code Sync is a real-time collaborative code editor built with React, Node.js, and Socket.IO. It allows multiple users to join a room and edit code simultaneously, making it perfect for pair programming, interviews, or online coding collaboration.
 
@@ -24,11 +24,11 @@ Frontend: React, CodeMirror, React Router, React Hot Toast
 
 Backend: Node.js, Express, Socket.IO
 
-Deployment: Replit (live demo hosted)
+Deployment: Replit ([live  demo](https://code-sync--nalinipatidar.replit.app/) hosted)
 
 How to Use 🚀
 
-Go to the Live Demo
+Go to the [Live Demo](https://code-sync--nalinipatidar.replit.app/)
 .
 
 Enter your username and create or join a Room.
