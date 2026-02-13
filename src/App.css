@@ -1,38 +1,158 @@
-.App {
+.homePageWrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #2a2c38;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-width: 90%;
+}
+
+.footer {
   text-align: center;
+  padding: 15px 0;
+  background: #1c1e29;
+  color: #ffffff !important;
+  font-size: 14px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.mainLabel {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0;
+
+}
+.homePageLogo{
+  height: 80px;
+  margin-bottom: 30px;
+}
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #1c1e29;
+  color: #fff;
+}
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+   font-weight: bold;
+  cursor: pointer;
+  transition:all 0.3s ease-in-out;
+}
+.joinBtn,.leaveBtn{
+  background-color: #4caf50;
+  margin-left: auto;
+  width: 100px;
+  color: #fff;
+  font-weight: bold;
+}
+.joinBtn:hover, .leaveBtn:hover{
+  background-color: #45a049;
+}
+.createBtn{
+  background-color: #008cba;
+  color: #fff;
+}
+.createBtn:hover{
+  background-color: #007bb5;
+}
+.errorMsg{
+  color: #ff4d4d;
+  margin-top: 10px;
+} 
+.createInfo{
+  margin: 0 auto;
+  margin-top: 20px;
+ 
+}
+.createNewBtn{
+  background: none;
+  border: none;
+  color: #008cba;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+.createNewBtn:hover{
+  color: #007bb5;
+}
+.mainWrap{
+  display: grid;
+  grid-template-columns: 250px 1fr; 
+}
+.aside{
+  background-color: #1c1e29;
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.asideInner{
+  flex: 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.clientsList{
+display: flex; 
+align-items: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+.client{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: bold;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.userName{
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
 }
+.logoImage{
+  height: 60px;
+}
+.leaveBtn{
+  margin-top: 20px;
+  width: 100%; 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.CodeMirror{
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+.pageContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
