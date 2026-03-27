@@ -112,6 +112,15 @@ realtime-code-editor/
 
 This project is open source and available under the [MIT License](LICENSE).
 
+---
 
+## Future Scope 🔭
 
- 
+- 🌐 **Multi-language support** — allow users to select programming language and apply appropriate syntax highlighting
+- 💾 **Save & export code** — let users download their session code as a file
+- 🎙️ **Voice & video chat** — integrate WebRTC for audio/video alongside code collaboration
+- 🔐 **Authentication** — add user login so sessions and history can be saved per user
+- 📝 **Code execution** — run code directly in the browser using a sandboxed execution engine
+- 🕘 **Session history** — replay past editing sessions to review changes over time
+- 🎨 **Custom themes** — let users pick editor themes and font preferences
+- 📱 **Mobile responsiveness** — optimize the editor layout for tablet and mobile devices
